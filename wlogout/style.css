@@ -1,0 +1,97 @@
+* {
+    background-image: none;
+    box-shadow: none;
+}
+
+window {
+    background-color: rgba(12, 12, 12, 0.9);
+    font-family: "NotoSans Nerd Font";
+    font-size: 20px;
+}
+
+box {
+    margin: 20px;
+}
+
+button {
+    color: #ebdbb2;
+    background-color: #282828;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    margin: 0;
+    padding: 0;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+/* Container for all buttons */
+box {
+    border: 2px solid #ebdbb2;
+    border-radius: 30px;
+    padding: 0;
+}
+
+/* Individual button borders */
+button {
+    border: 1px solid #ebdbb2;
+}
+
+/* First row */
+button:nth-child(1) {
+    border-right: none;
+    border-bottom: none;
+}
+
+button:nth-child(2) {
+    border-right: none;
+    border-bottom: none;
+}
+
+button:nth-child(3) {
+    border-bottom: none;
+}
+
+/* Second row */
+button:nth-child(4) {
+    border-right: none;
+}
+
+button:nth-child(5) {
+    border-right: none;
+}
+
+button:nth-child(6) {
+    /* Only needs its left border since it's the last button */
+}
+
+button:focus,
+button:active,
+button:hover {
+    background-color: #665c54;
+    outline-style: none;
+}
+
+#lock {
+    background-image: url("./lock.png");
+}
+
+#logout {
+    background-image: url("./logout.png");
+}
+
+#shutdown {
+    background-image: url("./power.png");
+}
+
+#reboot {
+    background-image: url("./restart.png");
+}
+
+#hibernate {
+    background-image: url("./hibernate.png");
+}
+
+#suspend {
+    background-image: url("./suspend.png");
+}
