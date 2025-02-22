@@ -1,0 +1,73 @@
+
+image_source="~/.config/fastfetch/image.png"
+image_width=25
+image_height=13
+image_padding_top=2
+
+# Set custom separator lines
+separator=""
+separator_top="╔═══════════════════════════════════════════════╗"
+separator_bottom="╚═══════════════════════════════════════════════╝"
+
+# Display settings
+display_separator=""
+
+# OS
+os_key="  󰣇  OS        ║"
+os_format=" {3}"
+os_key_color="blue"
+
+# Kernel
+kernel_key="    Kernel    ║ "
+kernel_format="{1} {2}"
+kernel_key_color="blue"
+
+# Packages
+packages_key="  󰏗  Packages  ║ "
+packages_format="{2} (pacman){?3}[{3}]{?}"
+packages_key_color="blue"
+
+# Shell
+shell_key="    Shell     ║ "
+shell_format="zsh"
+shell_key_color="blue"
+
+# Terminal
+terminal_key="    Terminal  ║ "
+terminal_format="{1}"
+terminal_key_color="blue"
+
+# Window Manager
+wm_key="  󰍹  WM        ║ "
+wm_format="{0}"
+wm_key_color="blue"
+
+# Custom separator
+separator_middle="╔═══════════════════════════════════════════════╗"
+
+# CPU
+cpu_key="    CPU       ║ "
+cpu_format="{0}"
+cpu_key_color="green"
+
+# GPU
+gpu_key="  󰊴  GPU       ║ "
+gpu_format="{2}"
+gpu_key_color="green"
+
+# Memory
+memory_key="    Memory    ║ "
+memory_format="{1} / {2} ({3})"
+memory_key_color="green"
+
+# Disk
+disk_key="    Disk      ║ "
+disk_format="{1} / {2} ({3})"
+disk_key_color="green"
+
+# Custom separator
+separator_end="╚═══════════════════════════════════════════════╝"
+
+# GitHub custom message
+github_message=" Github   ==>   Andr3xDev"
+github_color="red"
